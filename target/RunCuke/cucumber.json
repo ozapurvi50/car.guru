@@ -1,0 +1,64 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Search the buy car with model",
+        "description": "",
+        "id": "search-functionality;search-the-buy-car-with-model",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 304468600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am on homepage",
+            "match": {
+              "location": "BuyFeaturesSteps.iAmOnHomepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 186054600,
+              "error_message": "java.lang.IllegalArgumentException: Driver must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:59)\r\n\tat org.openqa.selenium.interactions.Actions.\u003cinit\u003e(Actions.java:60)\r\n\tat car.guru.utility.Utility.mouseHoverToElement(Utility.java:251)\r\n\tat car.guru.pages.HomePage.setBuySellTab(HomePage.java:28)\r\n\tat car.guru.steps.BuyFeaturesSteps.iMouseHoverOnBuySellTab(BuyFeaturesSteps.java:16)\r\n\tat ✽.When I mouse hover on “buy+sell” tab(buy.feature:5)\r\n",
+              "status": "failed"
+            },
+            "line": 5,
+            "name": "I mouse hover on “buy+sell” tab",
+            "match": {
+              "location": "BuyFeaturesSteps.iMouseHoverOnBuySellTab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I click ‘Search Cars’ link",
+            "match": {
+              "location": "BuyFeaturesSteps.iClickSearchCarsLink()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Search functionality",
+    "description": "",
+    "id": "search-functionality",
+    "keyword": "Feature",
+    "uri": "buy.feature"
+  }
+]

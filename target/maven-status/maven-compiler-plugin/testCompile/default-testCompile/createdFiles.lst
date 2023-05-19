@@ -1,6 +1,6 @@
-car\guru\Hooks.class
-car\guru\runner\RegressionRunner.class
 car\guru\runner\TestRunner.class
 car\guru\steps\BuyFeaturesSteps.class
+car\guru\Hooks.class
 car\guru\runner\SanityRunner.class
+car\guru\runner\RegressionRunner.class
 car\guru\runner\SmokeRunner.class

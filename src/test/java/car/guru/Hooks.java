@@ -4,8 +4,9 @@ import car.guru.propertyreader.PropertyReader;
 import car.guru.utility.Utility;
 import com.cucumber.listener.Reporter;
 import cucumber.api.Scenario;
-import org.junit.After;
-import org.junit.Before;
+import cucumber.api.java.After;
+import cucumber.api.java.Before;
+
 
 import java.io.IOException;
 

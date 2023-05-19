@@ -6,6 +6,10 @@ formatter.feature({
   "id": "search-functionality",
   "keyword": "Feature"
 });
+formatter.before({
+  "duration": 5066535300,
+  "status": "passed"
+});
 formatter.scenario({
   "line": 3,
   "name": "Search the buy car with model",
@@ -39,21 +43,25 @@ formatter.match({
   "location": "BuyFeaturesSteps.iAmOnHomepage()"
 });
 formatter.result({
-  "duration": 304468600,
+  "duration": 79152900,
   "status": "passed"
 });
 formatter.match({
   "location": "BuyFeaturesSteps.iMouseHoverOnBuySellTab()"
 });
 formatter.result({
-  "duration": 186054600,
-  "error_message": "java.lang.IllegalArgumentException: Driver must be set\r\n\tat org.openqa.selenium.internal.Require.nonNull(Require.java:59)\r\n\tat org.openqa.selenium.interactions.Actions.\u003cinit\u003e(Actions.java:60)\r\n\tat car.guru.utility.Utility.mouseHoverToElement(Utility.java:251)\r\n\tat car.guru.pages.HomePage.setBuySellTab(HomePage.java:28)\r\n\tat car.guru.steps.BuyFeaturesSteps.iMouseHoverOnBuySellTab(BuyFeaturesSteps.java:16)\r\n\tat ✽.When I mouse hover on “buy+sell” tab(buy.feature:5)\r\n",
-  "status": "failed"
+  "duration": 468150100,
+  "status": "passed"
 });
 formatter.match({
   "location": "BuyFeaturesSteps.iClickSearchCarsLink()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 311471000,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 651567800,
+  "status": "passed"
 });
 });
